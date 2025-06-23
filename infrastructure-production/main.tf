@@ -28,4 +28,6 @@ resource "aws_redshift_cluster" "egnr" {
   node_type          = "dc1.large"
   cluster_type       = "multi-node"
   number_of_nodes    = 3
+
+  tags = local.common_tags
 }
