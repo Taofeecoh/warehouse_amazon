@@ -4,6 +4,7 @@ terraform {
       source  = "hashicorp/aws"
       version = "~> 5.0"
     }
+    random = {}
   }
 }
 
@@ -28,4 +29,3 @@ resource "aws_redshift_cluster" "egnr" {
   cluster_type       = "multi-node"
   number_of_nodes    = 3
 }
-
