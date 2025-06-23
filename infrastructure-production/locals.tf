@@ -3,5 +3,4 @@ locals {
     environment = "production"
     team        = "engineering"
   }
-
 }
