@@ -8,7 +8,7 @@ Redshift is a dsitributed system with 3core components:
     * storage/disk
 
 
-![alt text](image.png)
+![alt text](assets/image.png)
 
 
 ## Distribution styles
