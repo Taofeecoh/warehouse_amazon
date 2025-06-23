@@ -10,4 +10,6 @@ resource "aws_ssm_parameter" "egnr-password" {
   description = "The parameter description"
   type        = "String"
   value       = random_password.egnrdb-password.result
+
+  tags = local.common_tags
 }
